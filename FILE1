@@ -11,7 +11,7 @@ System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 			driver.get("https://www.google.com/");
 			driver.findElement(By.name("q")).sendKeys("java");
 
-			  List<WebElement> allauto = driver.findElements(By.xpath("//li[@class='sbct' and not(@id='YMXe')]"));
+			  List<WebElement> all = driver.findElements(By.xpath("//li[@class='sbct' and not(@id='YMXe')]"));
 			  
 			  
 			  int count=allauto.size();
