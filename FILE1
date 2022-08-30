@@ -16,7 +16,7 @@ System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 			  List<WebElement> all = driver.findElements(By.xpath("//li[@class='sbct' and not(@id='YMXe')]"));
 			  
 			  
-			  int count=allauto.size();
+			  int count=allauto.Text();
 			  
 			  System.out.println("total count="+count);
 			  
